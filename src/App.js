@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+// import  from './logo.svg';
 import './App.css';
-import Header from './components/Header';
+
+import './components/Contact.css'
+import { Container } from 'react-bootstrap';
+import Contact from './components/Contact'
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Container >
+        <Contact />
+      </Container>
     </div>
   );
 }

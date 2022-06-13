@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.section-1{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.Container{
+    width: 100%;
+    background: rgba(209, 185, 232, 0.59);
+    /* background: url("./featue-bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;    */
+
+}
+h4{
+    letter-spacing: 1vmin;
+    font-size: 50pt !important;
+    
+    
+}
+.section-2{
+    text-align: left;
+}
