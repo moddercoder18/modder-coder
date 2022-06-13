@@ -16,10 +16,14 @@
 }
 h4{
     letter-spacing: 1vmin;
-    font-size: 50pt !important;
+    font-size: 2.5rem !important;
     
     
 }
 .section-2{
     text-align: left;
+    
+}
+p{
+    font-size: small !important;
 }
