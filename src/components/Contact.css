@@ -1,29 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-.section-1{
-    height: 100%;
+section{
     width: 100%;
+    background: url("./abstract-astronomy-dark-924824.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
     
 }
-
 .Container{
-    width: 100%;
-    background: rgba(209, 185, 232, 0.59);
-    /* background: url("./featue-bg.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;    */
-
+    height: auto;
+    text-align: left;
 }
 h4{
-    letter-spacing: 1vmin;
-    font-size: 2.5rem !important;
-    
-    
+    font-family: sans-serif;
+    font-weight: lighter !important;
+   
 }
-.section-2{
-    text-align: left;
-    
+span{
+   font-size: 1.5rem;
 }
-p{
-    font-size: small !important;
+
+ .Upper-Section{
+    background: linear-gradient(to right,rgba(231, 133, 133, 0.57),rgb(206, 86, 184),rgba(231, 133, 133, 0.57));
+    height: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
+h3{
+    letter-spacing: 0.5rem;
+    font-size: 3rem !important;
+    font-weight: lighter !important;
+    color: white;
+}
+input{
+    background-color: aquamarine;
+}
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
