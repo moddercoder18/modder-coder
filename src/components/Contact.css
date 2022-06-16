@@ -23,7 +23,7 @@ span{
 }
 
  .Upper-Section{
-    background: linear-gradient(to right,rgba(231, 133, 133, 0.57),rgb(206, 86, 184),rgba(231, 133, 133, 0.57));
+    background: linear-gradient(to right,rgba(231, 133, 133, 0.38),rgb(11, 8, 11),rgba(231, 133, 133, 0.334));
     height: 300px;
     display:flex;
     align-items: center;
@@ -37,8 +37,27 @@ h3{
     font-weight: lighter !important;
     color: white;
 }
-input{
-    background-color: aquamarine;
+input[type='text']{
+    background: black;
+    font-size: larger;
+}
+
+Button{
+    font-size: larger;
+
+}
+input[type='email']{
+    background: black;
+    
+    font-size: larger;
+
+}
+
+textarea[type="text"]{
+    background: black;
+   
+    font-size: larger;
+
 }
 
 /* @media only screen and (max-width: 600px) {
