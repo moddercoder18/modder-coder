@@ -1,6 +1,4 @@
-// import  from './logo.svg';
 import './App.css';
-
 import './components/Contact.css'
 //import { Container } from 'react-bootstrap';
 import Contact from './components/Contact'

@@ -1,61 +1,54 @@
 import React from "react";
 import './Contact.css';
-import { FaGoogle,FaPhoneAlt,FaMapMarker,FaMailBulk ,FaLinkedinIn,FaInstagram, FaTwitter,FaPinterest, FaFacebook} from 'react-icons/fa'
-import { Container , Button } from 'react-bootstrap';
-
-
-
-
-
-
-
+import { FaGoogle, FaPhoneAlt, FaMapMarker, FaMailBulk, FaLinkedinIn, FaInstagram, FaTwitter, FaPinterest, FaFacebook } from 'react-icons/fa'
+import { Button, Row, Col } from 'react-bootstrap';
+import Map from './Map';
 
 const Contact = () => {
   return (
-    <section className=" ">
+    <section >
 
       <div className="Upper-section ">
-        <h3>Drop Us A Note</h3>
+        <h3 className="text-white">Drop Us A Note</h3>
         <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quibusdam.</p>
       </div>
-      <div className="row  d-flex bg-dark ">
-        <Container className="  d-flex justify-content-center p-5">
-          <div className="col-lg-4 col-md-12 d-grid me-4 mt-5">
+      <div className="row d-flex bg-dark ">
+        <Row className="d-flex  border justify-content-center p-5">
+          <Col lg="5" md sm className="   mt-5">
             <input type="text" className=" form-control p-3" placeholder="Your Name" />
             <input type="email" className="form-control  p-3 mt-4" placeholder="Email" />
             <input type="text" className="form-control p-3 mt-4 " placeholder="Subject" />
 
-          </div>
-          <div className="col-lg-4  col-md-12 mt-5 ">
-          <textarea type="text" id="w3review" name="w3review" className="form-control " rows="5" cols="50" placeholder="Message">
-          </textarea>
-          <Button type="button" className=" btn btn-secondary text-white  w-100 mt-3 p-3">Send Message</Button>
-                     </div>
-        </Container>
-        <Container className=" d-flex justify-content-center p-5">
-        <div className="col-lg-4 col-md-12  p-2 me-4 text-white">
-          <h4 className="mb-4 me-2">Stop By For A visit</h4>
-          <p ><span className="me-3"><FaMapMarker/></span>North Main Street,Brooklyn Australia</p>
-          <p> <span className="me-3"><FaMailBulk/></span>Email: contact@mail.com</p>
-          <p><span className="me-3"><FaPhoneAlt/></span>Phone:+88 01672 506 744</p>
+          </Col>
+          <Col  lg="5" md  sm className=" mt-5 ">
+            <textarea type="text" id="w3review" name="w3review" className="form-control " rows="5" cols="50" placeholder="Message">
+            </textarea>
+            <Button type="button" className=" btn btn-secondary text-white  w-100 mt-3 p-3">Send Message</Button>
+          </Col>
+        </Row>
+        <Row className=" border d-flex justify-content-center p-5">
+          <Col  lg="5" md sm  className="  p-2  text-white">
+            <h4 className="mb-4 me-2 text-secondary">Stop By For A visit<hr className="Hr-line"/></h4>
+            <p className="text-secondary"><span className="me-3 text-secondary"><FaMapMarker /></span>North Main Street,Brooklyn Australia</p>
+            <p className="text-secondary"> <span className="me-3 text-secondary"><FaMailBulk /></span>Email: contact@mail.com</p>
+            <p className="text-secondary"><span className="me-3 text-secondary"><FaPhoneAlt /></span>Phone:+88 01672 506 744</p>
 
-          <p>
-              <span className="me-5"><FaGoogle className="FaGoogle"/></span>
-              <span className="me-5"><FaLinkedinIn/></span>
-              <span className="me-5"><FaInstagram/></span>
-              <span className="me-5"><FaTwitter/></span>
-              <span className="me-5"><FaPinterest/></span>
-              <span className="me-5"><FaFacebook/></span>
-          </p>
-        </div>
-        <div className="col-lg-4 col-md-12  ">
-        <h1>map</h1>
-        </div>
-
-
-        </Container>
-
+            <p>
+              <span className="me-4"><FaGoogle className="text-secondary" /></span>
+              <span className="me-4"><FaLinkedinIn className="text-secondary" /></span>
+              <span className="me-4"><FaInstagram className="text-secondary" /></span>
+              <span className="me-4"><FaTwitter className="text-secondary" /></span>
+              <span className="me-4"><FaPinterest className="text-secondary" /></span>
+              <span className="me-4"><FaFacebook className="text-secondary" /></span>
+            </p>
+          </Col>
+          <Col lg="5" md sm className=" border ">
             
+            <Map />
+          </Col>
+        </Row>
+
+
 
 
 

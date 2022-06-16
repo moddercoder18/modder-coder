@@ -9,21 +9,21 @@ section{
     padding: 0%;
     
 }
-.Container{
+.Row{
     height: auto;
     text-align: left;
 }
 h4{
     font-family: sans-serif;
     font-weight: lighter !important;
-   
 }
+
 span{
    font-size: 1.5rem;
 }
 
  .Upper-Section{
-    background: linear-gradient(to right,rgba(231, 133, 133, 0.38),rgb(11, 8, 11),rgba(231, 133, 133, 0.334));
+    background: linear-gradient(to left ,rgba(0, 0, 0, 0.949),rgba(182, 178, 178, 0.569));
     height: 300px;
     display:flex;
     align-items: center;
@@ -38,30 +38,43 @@ h3{
     color: white;
 }
 input[type='text']{
-    background: black;
-    font-size: larger;
-}
+    background:none;
+    font-size: inherit;
+    font-style: inherit;
+    color: white;
+    outline: none;
 
+}
+input[type='text']:focus{
+    background: none;
+    color: white;
+}
+input[type='email']:focus{
+    background: none;
+    color: white;
+}
+textarea[type='text']:focus{
+    background: none;
+    color: white;
+   
+    outline: none;
+}
 Button{
     font-size: larger;
 
 }
 input[type='email']{
-    background: black;
+    background:none;
     
     font-size: larger;
 
 }
 
 textarea[type="text"]{
-    background: black;
-   
+    background:none;
     font-size: larger;
 
 }
 
-/* @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  } */
+
+
