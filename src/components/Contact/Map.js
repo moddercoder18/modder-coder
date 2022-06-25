@@ -8,7 +8,8 @@ const MapMaker = ({
     return (
         <div style={{
             position: 'relative',
-            height: "300px",
+            height: "250px",
+            margin:"0px",
             
         
         }}>

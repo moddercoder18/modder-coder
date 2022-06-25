@@ -1,45 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-body{
-    position: relative;
-}
 
-section {
-    width: 100%;
-    background: url("./martin-sanchez-G78c3DPmD_A-unsplash.jpeg");
-    /* background: url("/Users/shubhamvijayvargiy/Desktop/projects/poc/modder-coder/src/components/featue-bg.jpg"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0%;
-    padding: 0%;
-
-}
-
-.Row {
+.Second-section {
     height: auto;
     text-align: left;
     background: linear-gradient(to left, rgba(0, 0, 0, 0.712), rgba(25, 24, 24, 0.507));
-
 }
 
 h4 {
     font-family: sans-serif;
     font-weight: lighter !important;
     font-size: 2rem !important;
+    text-align: left;
+    margin-left: 10px;
 }
 
 span {
     font-size: 1.7rem;
+    text-align: left;
 }
 
+.icons {
+    text-align: left;
+    margin-left: 10px;
+}
 
 .Upper-Section {
     background: linear-gradient(to left, rgba(0, 0, 0, 0.712), rgba(25, 24, 24, 0.507));
-    height: 300px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 h3 {
@@ -51,13 +42,10 @@ h3 {
 
 input[type='text'] {
     background: none;
-    font-size: inherit;
+    font-size: larger;
     font-style: inherit;
     color: white;
     outline: none;
-
-
-
 }
 
 input[type='text']:focus {
@@ -66,8 +54,10 @@ input[type='text']:focus {
     border-width: 0px;
     border: none;
     outline: none;
-
-
+}
+input[type='email'] {
+    background: none;
+    font-size: larger;
 }
 
 input[type='email']:focus {
@@ -76,8 +66,6 @@ input[type='email']:focus {
     border-width: 0px;
     border: none;
     outline: none;
-
-
 }
 
 textarea[type='text']:focus {
@@ -86,30 +74,18 @@ textarea[type='text']:focus {
     border-width: 0px;
     border: none;
     outline: none;
-
-
-
-    outline: none;
 }
 
 Button {
     font-size: larger;
-
 }
 
-input[type='email'] {
-    background: none;
-
-
-    font-size: larger;
-
-}
 
 textarea[type="text"] {
     background: none;
     font-size: larger;
-
-
-
-
+}
+.btn{   
+    height: 63px;
+    margin-top: 27px;
 }

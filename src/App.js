@@ -1,13 +1,15 @@
 import './App.css';
-import './components/Contact.css'
-//import { Container } from 'react-bootstrap';
-import Contact from './components/Contact'
+import Index from './components/Contact/Index';
+
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <Contact />
+     <Index/>
+      
     </div>
   );
 }
